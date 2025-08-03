@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>ISMT College - International School of Management & Technology</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>ISMT <span>College</span></h1>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <li><a href="#admission">Admission</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to ISMT College</h1>
+            <h2>Excellence in Education Since 1998</h2>
+            <p>International School of Management & Technology - Shaping tomorrow's leaders today</p>
+            <div class="hero-buttons">
+                <a href="#admission" class="btn primary-btn">Apply Now</a>
+                <a href="#programs" class="btn secondary-btn">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Quality Education</h3>
+                <p>Internationally recognized programs with experienced faculty</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Global Perspective</h3>
+                <p>International exposure and exchange programs</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Industry Connections</h3>
+                <p>Strong partnerships with leading companies</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <h3>Research Facilities</h3>
+                <p>State-of-the-art labs and research centers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About ISMT</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>ISMT College was established in 1998 as an institution dedicated to providing quality education in management and technology fields. Over the past 25+ years, we have grown to become one of the leading educational institutions in the region.</p>
+                    <p>Our mission is to empower students with knowledge, skills, and values to excel in their chosen fields and become responsible global citizens. We focus on holistic development through a blend of academic excellence, practical experience, and personal growth opportunities.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <h3>25+</h3>
+                            <p>Years of Excellence</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10,000+</h3>
+                            <p>Alumni Worldwide</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Industry Partners</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100+</h3>
+                            <p>Expert Faculty</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1686&q=80" alt="ISMT College Campus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Programs</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="program-categories">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-target="undergraduate">Undergraduate</button>
+                    <button class="tab-btn" data-target="graduate">Graduate</button>
+                    <button class="tab-btn" data-target="diploma">Diploma & Certificate</button>
+                </div>
+                <div class="program-content">
+                    <div class="program-category active" id="undergraduate">
+                        <div class="program-list">
+                            <div class="program-card">
+                                <h3>Bachelor of Business Administration (BBA)</h3>
+                                <p>A 4-year program focusing on modern business principles and practices with specializations in Marketing, Finance, and Human Resources.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="program-card">
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                                <p>A comprehensive program covering software development, database management, networking and modern IT practices.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="program-card">
+                                <h3>Bachelor of Hotel Management (BHM)</h3>
+                                <p>Prepares students for careers in the hospitality industry with practical training and industry internships.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-category" id="graduate">
+                        <div class="program-list">
+                            <div class="program-card">
+                                <h3>Master of Business Administration (MBA)</h3>
+                                <p>An advanced 2-year program with specializations in International Business, Finance, Marketing, and Human Resource Management.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="program-card">
+                                <h3>Master of Computer Applications (MCA)</h3>
+                                <p>Advanced studies in computer science focusing on software development, data science, and IT management.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="program-card">
+                                <h3>Master in Information Technology (MIT)</h3>
+                                <p>Specialized program for IT professionals looking to advance their careers with cutting-edge technology skills.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-category" id="diploma">
+                        <div class="program-list">
+                            <div class="program-card">
+                                <h3>Diploma in Digital Marketing</h3>
+                                <p>1-year program covering SEO, social media marketing, content strategy, and digital analytics.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="program-card">
+                                <h3>Certificate in Web Development</h3>
+                                <p>6-month intensive program teaching front-end and back-end web development technologies.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="program-card">
+                                <h3>Diploma in Hotel Operations</h3>
+                                <p>Practical training program preparing students for careers in hotel management and operations.</p>
+                                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="faculty">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Faculty</h2>
+                <div class="underline"></div>
+            </div>
+            <p class="section-description">Learn from industry experts and experienced academicians who are passionate about teaching and mentoring.</p>
+            <div class="faculty-slider">
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Dr. Robert Smith">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Robert Smith</h3>
+                        <h4>Professor of Management</h4>
+                        <p>PhD in Business Management with over 15 years of industry experience at top multinational corporations.</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80" alt="Dr. Sarah Johnson">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <h4>Professor of Computer Science</h4>
+                        <p>Expert in Artificial Intelligence and Data Science with research published in leading international journals.</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Prof. Michael Chen">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Michael Chen</h3>
+                        <h4>Associate Professor of Finance</h4>
+                        <p>Former investment banker with expertise in corporate finance, investment management and financial markets.</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Dr. Lisa Wong">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Lisa Wong</h3>
+                        <h4>Professor of Hospitality Management</h4>
+                        <p>International consultant with extensive experience in luxury hotel chains and tourism development projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Section -->
+    <section id="campus" class="campus">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Campus</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="campus-gallery">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1686&q=80" alt="ISMT Main Building">
+                    <div class="gallery-overlay">
+                        <h3>Main Building</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" alt="ISMT Library">
+                    <div class="gallery-overlay">
+                        <h3>Library</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Computer Lab">
+                    <div class="gallery-overlay">
+                        <h3>Computer Lab</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80" alt="Cafeteria">
+                    <div class="gallery-overlay">
+                        <h3>Cafeteria</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Sports Complex">
+                    <div class="gallery-overlay">
+                        <h3>Sports Complex</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="admission">
+        <div class="container">
+            <div class="section-title">
+                <h2>Admission Process</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="admission-content">
+                <div class="admission-steps">
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-file-alt"></i>
+                            <span class="step-number">1</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Online Application</h3>
+                            <p>Complete the online application form and submit required documents</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-pencil-alt"></i>
+                            <span class="step-number">2</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Entrance Exam</h3>
+                            <p>Take the ISMT aptitude test (online or at center)</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-comments"></i>
+                            <span class="step-number">3</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Interview</h3>
+                            <p>Personal interview with faculty members</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="step-number">4</span>
+                        </div>
+                        <div class="step-content">
+                            <h3>Final Selection</h3>
+                            <p>Offer letter and admission confirmation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card">
+                    <h3>Start Your Application</h3>
+                    <p>Next intake begins soon. Apply now to secure your spot!</p>
+                    <div class="application-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Select Program</option>
+                                <option value="bba">Bachelor of Business Administration</option>
+                                <option value="bca">Bachelor of Computer Applications</option>
+                                <option value="bhm">Bachelor of Hotel Management</option>
+                                <option value="mba">Master of Business Administration</option>
+                                <option value="mca">Master of Computer Applications</option>
+                                <option value="mit">Master in Information Technology</option>
+                                <option value="other">Other Programs</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Request Information</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Address</h3>
+                            <p>123 College Road, Education District<br>City, Country - 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p>+1 (123) 456-7890<br>+1 (123) 456-7891</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>info@ismt.edu<br>admissions@ismt.edu</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <h2>ISMT <span>College</span></h2>
+                    </div>
+                    <p>Providing quality education since 1998. ISMT College is dedicated to shaping future leaders through academic excellence and practical training.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#admission">Admission</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Faculty Portal</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Career Services</a></li>
+                        <li><a href="#">Alumni Network</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to get updates on events, news and opportunities.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ISMT College. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
